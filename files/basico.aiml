@@ -2,10 +2,16 @@
 <aiml version="2.0">
  <category>
     <pattern>HOLA</pattern>
-    <template>Buenas</template>
+    <template>Bienvenid@. ¿Quieres saber suáles son las entradas o vamos a la sopa?</template>
   </category>
   <category>
   <pattern>ENTRADAS</pattern>
-    <template>Malas</template>
+    <template>Tenemos palitos de apio, ensalada o fruta picada</template>
   </category>
+   <category>
+  <pattern>SOPA</pattern>
+    <template>¿Quieres sopa del día o consomé?</template>
+  </category>
+  
 </aiml>
+
