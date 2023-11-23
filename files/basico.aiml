@@ -4,12 +4,21 @@
     <pattern>HOLA</pattern>
     <template>Bienvenid@. ¿Quieres saber suáles son las entradas o vamos a la sopa?</template>
   </category>
+  
   <category>
-  <pattern>ENTRADAS</pattern>
+    <pattern>ENTRADAS</pattern>
     <template>Tenemos palitos de apio, ensalada o fruta picada</template>
   </category>
+  
+  <category>
+    <pattern>* ENTRADAS</pattern>
+    <template>
+          <srai>ENTRADAS</srai>
+    </template>
+  </category>
+  
    <category>
-  <pattern>SOPA</pattern>
+    <pattern>SOPA</pattern>
     <template>¿Quieres sopa del día o consomé?</template>
   </category>
   
