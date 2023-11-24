@@ -2,7 +2,15 @@
 <aiml version="2.0">
  <category>
     <pattern>HOLA</pattern>
-    <template>Bienvenid@. ¿Quieres saber suáles son las entradas o vamos a la sopa?</template>
+    <template>
+        <random>
+            <li>Bienvenid@. ¿Quieres saber cuáles son las entradas o vamos a la sopa?</li>
+            <li>Buen día ¿toma entrada o empieza con la sopa?</li>
+            <li>Sea bienvenid@. ¿le digo las entradas o pasamos a la sopa?</li>
+            <li>Muy buen día ¿quiere saber las entradas o elige sopa de una vez?</li>
+        </random>
+        
+    </template>
   </category>
   
   <category>
