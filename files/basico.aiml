@@ -47,5 +47,22 @@
       <template>Una enorme disculpa, llevo su <star/> a calentar</template>
   </category>
   
+  <category>
+      <pattern>* POSTRE</pattern>
+      <template>De postre tenemos galletas ¿quieres?</template>
+  </category>
+  
+  <category>
+      <pattern>SI</pattern>
+      <that>De postre tenemos galletas ¿quieres</that>
+      <template>En un momento le traigo sus galletas</template>
+  </category>
+  
+  <category>
+      <pattern>NO</pattern>
+      <that>De postre tenemos galletas ¿quieres</that>
+      <template>Entendido. Si desea algo más escriba "OYE"</template>
+  </category>
+ 
 </aiml>
 
