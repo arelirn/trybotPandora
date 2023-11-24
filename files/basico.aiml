@@ -41,5 +41,11 @@
         <pattern>SOPA DEL DÍA</pattern>
         <template>Excelente elección. ¿Le traigo tortillas o pan?</template>
   </category>
+  
+  <category>
+      <pattern> LA * ESTÁ FRÍA</pattern>
+      <template>Una enorme disculpa, llevo su <star/> a calentar</template>
+  </category>
+  
 </aiml>
 
